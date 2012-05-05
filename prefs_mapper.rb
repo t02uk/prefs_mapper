@@ -160,7 +160,7 @@ class PrefsMapper
 		File::open(output_path, 'w') do |file|
 			file.write(dist_source)
 		end
-		puts "success!! output file > #{output_path}"
+		puts "success! output file > #{output_path}"
 	end
 
 end
